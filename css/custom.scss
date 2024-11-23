@@ -5,7 +5,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // Step 2: Override variables
-<style> @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap'); </style>
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 $bistre: #31231E;
 $ferngreen: #65743A;
@@ -14,6 +14,7 @@ $alloyorange: #BD632F;
 $charcoal: #273E47;
 
 $primary: $charcoal;
+$secondary: $butterscotch;
 $success: $bistre;
 $danger: $alloyorange;
 $warning: $butterscotch;
@@ -22,9 +23,7 @@ $info: $ferngreen;
 // Step 3: Import full Bootstrap to apply customizations
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-$font-family: "DM Sans", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; }
-
-
+$font-family0b: "DM Sans", sans-serif;
 
 
 
