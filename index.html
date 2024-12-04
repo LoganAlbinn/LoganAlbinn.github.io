@@ -122,6 +122,14 @@ a:hover {
     color: #6d5e40; /* Darker color on hover */
 }
 
+.second-pic{
+    width: 35%;
+}
+
+.profile-container{
+    display: inline-flex;
+}
+
 /* Responsive design */
 @media (max-width: 767px) {
     main {
@@ -152,8 +160,10 @@ a:hover {
 
     <main class="px-3">
         <h1>Logan Albin</h1>
-        <img src="Images/profilepic.jpg" alt="Profile Picture" class="img-fluid profile-img rounded-circle">
-        <p class="lead">I am a second-year student at Oregon State University Cascades, pursuing a degree in Computer Science. Growing up in Bend, Oregon, with the mountains in my backyard has shaped my love for both technology and nature. Beyond coding, I enjoy playing the guitar, which not only serves as a creative outlet but also enhances my analytical skills through the structured yet artistic nature of music. I am dedicated to using both my technical skills and personal interests to expand the horizons of technology.</p>
+        <div class="profile-container">
+            <p class="h3 p-3 m-5">I am a second-year student at Oregon State University Cascades, pursuing a degree in Computer Science. Growing up in Bend, Oregon, with the mountains in my backyard has shaped my love for both technology and nature. Beyond coding, I enjoy playing the guitar, which not only serves as a creative outlet but also enhances my analytical skills through the structured yet artistic nature of music. I am dedicated to using both my technical skills and personal interests to expand the horizons of technology.</p>
+            <img src="Images/secondpic.jpg" alt="Profile Picture" class="img-fluid profile-img square second-pic m-5">
+             </div>    
     </main>
 
     <footer class="mt-auto text-white-50">
